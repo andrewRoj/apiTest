@@ -42,5 +42,4 @@ class User:
 
     def get_user_auth(self, response_object):
         self.auth_token = response_object["token"]
-        # print(self.user_auth)
         return self.auth_token
